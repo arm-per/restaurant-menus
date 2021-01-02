@@ -1,0 +1,39 @@
+$principal:  #005F7D;
+$secundario: #008FE0;
+$text-color: #2F2C2C;
+
+$background: #ffffff;
+$background-dark: #2F393D;
+$header-dark: #1F2122;
+
+.principal {
+  color: $principal
+}
+
+.secundario {
+  color: $secundario;
+}
+
+.text-color {
+  color: $text-color;
+}
+
+.bg{
+  background-color: $background;
+}
+
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: $background-dark;
+  }
+  .bg{
+    background-color: $header-dark;
+  }
+  .text-color{
+    color: white;
+  }
+  .principal{
+    color: lighten($principal, 30%)
+  }
+
+}
