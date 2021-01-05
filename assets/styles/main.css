@@ -180,10 +180,7 @@
 }
 
 .sticky {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 100;
+  height: 11rem;
 }
 
 .shadow {
@@ -192,6 +189,11 @@
 
 .b-box, .b-box > * {
   box-sizing: border-box;
+}
+
+main {
+  height: calc(100vh - 11rem);
+  overflow: scroll;
 }
 
 img {

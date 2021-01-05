@@ -138,7 +138,7 @@ for(i = 0; i < menuTags.length; i++){
 for(i = 0; i < menuItems.entradas.length; i++){
     window.el1.innerHTML += `<div class="grd my-1">
                         <div class="p-1">
-                            <h3 class="dish secundario">${menuItems.entradas[i].nombre}</h3>
+                            <h3 class="dish secundario px-3">${menuItems.entradas[i].nombre}</h3>
                             <p class="par text-color my-1">${menuItems.entradas[i].desc}</p>
                             <p class="price text-color right">${menuItems.entradas[i].price}</p>
                         </div>
@@ -151,7 +151,7 @@ for(i = 0; i < menuItems.entradas.length; i++){
 for(let i = 0; i < menuItems.fuertes.length; i++){
     window.el2.innerHTML += `<div class="grd my-1">
                         <div class="p-1">
-                            <h3 class="dish secundario">${menuItems.fuertes[i].nombre}</h3>
+                            <h3 class="dish secundario px-3">${menuItems.fuertes[i].nombre}</h3>
                             <p class="par text-color my-1">${menuItems.fuertes[i].desc}</p>
                             <p class="price text-color right">${menuItems.fuertes[i].price}</p>
                         </div>
@@ -164,7 +164,7 @@ for(let i = 0; i < menuItems.fuertes.length; i++){
 for(i = 0; i < menuItems.variedad.length; i++){
     window.el3.innerHTML += `<div class="grd my-1">
                         <div class="p-1">
-                            <h3 class="dish secundario">${menuItems.variedad[i].nombre}</h3>
+                            <h3 class="dish secundario px-3">${menuItems.variedad[i].nombre}</h3>
                             <p class="par text-color my-1">${menuItems.variedad[i].desc}</p>
                             <p class="price text-color right">${menuItems.variedad[i].price}</p>
                         </div>
@@ -177,7 +177,7 @@ for(i = 0; i < menuItems.variedad.length; i++){
 for(i = 0; i < menuItems.bebidas.length; i++){
     window.el4.innerHTML += `<div class="grd my-1">
                         <div class="p-1">
-                            <h3 class="dish secundario">${menuItems.bebidas[i].nombre}</h3>
+                            <h3 class="dish secundario px-3">${menuItems.bebidas[i].nombre}</h3>
                             <p class="par text-color my-1">${menuItems.bebidas[i].desc}</p>
                             <p class="price text-color right">${menuItems.bebidas[i].price}</p>
                         </div>
@@ -190,7 +190,7 @@ for(i = 0; i < menuItems.bebidas.length; i++){
 for(i = 0; i < menuItems.postres.length; i++){
    window.el5.innerHTML += `<div class="grd my-1">
                         <div class="p-1">
-                            <h3 class="dish secundario">${menuItems.postres[i].nombre}</h3>
+                            <h3 class="dish secundario px-3">${menuItems.postres[i].nombre}</h3>
                             <p class="par text-color my-1">${menuItems.postres[i].desc}</p>
                             <p class="price text-color right">${menuItems.postres[i].price}</p>
                         </div>
@@ -214,13 +214,13 @@ btns.forEach(btn => btn.addEventListener('click', (ev) => {
 
     let sections = document.querySelectorAll("section");
 
-    for(i = 0; i < btns.length; i++){
+    /*for(i = 0; i < btns.length; i++){
        if(ev.currentTarget === btns[i]){
            sections[i].style.paddingTop = '11rem';
        }else{
            sections[i].style.paddingTop = '0';
        }
-    }
+    }*/
 }))
 
 
