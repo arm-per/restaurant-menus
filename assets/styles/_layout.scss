@@ -37,7 +37,7 @@
 }
 
 .shadow{
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .b-box, .b-box > *{
@@ -45,7 +45,8 @@
 }
 
 main{
-  height: calc(100vh - 11rem);
+  max-height: calc(100vh - 110px);
   overflow: scroll;
+  position: fixed;
 }
 
