@@ -2,11 +2,11 @@ const mainMenu = document.getElementById("menu-render"),
     app = document.getElementById("app");
 
 const menuTags = [
-    "Item 1",
-    "Item 2",
-    "Item 3",
-    "Item 4",
-    "Item 5",
+    "Entradas",
+    "Hamburguesas",
+    "Cortes",
+    "Bebidas",
+    "Postres",
 ]
 
 
@@ -22,7 +22,7 @@ const menuItems = {
             nombre: "Platillo 2",
             desc: "Delicioso platillo con muchas cosas muy ricas, super deliciosas",
             price: '$100.00',
-            img: "https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg"
+            img: "https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg"
         },
         {
             nombre: "Platillo 3",
